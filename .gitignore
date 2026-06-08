@@ -3,3 +3,6 @@ lecture*/
 *.xlsx
 *.csv
 *.h5
+results/
+*.neg
+*.pos
