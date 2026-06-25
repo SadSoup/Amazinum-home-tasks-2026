@@ -6,3 +6,4 @@ lecture*/
 results/
 *.neg
 *.pos
+__pycache__
