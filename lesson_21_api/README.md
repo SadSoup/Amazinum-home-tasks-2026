@@ -25,44 +25,66 @@ By default, the server runs locally and can be accessed through:
 
 ## Installation
 
-1. Clone the repository:
+There are two possible ways to run the project.
+
+### Option 1: Download full project archive 
+
+1. Download and extract the provided project archive.
+2. Navigate to the project folder:
 
 ```bash
-git clone <repository_url>
-cd <repository_name>
+cd lesson_21_api
 ```
 
-2. Create a virtual environment:
+3. Create a virtual environment:
 
 ```bash
 python -m venv .venv
 ```
 
-3. Activate the virtual environment:
+4. Activate the environment:
 
-Windows
+**Windows**
 
 ```bash
 .venv\Scripts\activate
 ```
 
-4. Install the required packages:
+**Linux/macOS**
+
+```bash
+source .venv/bin/activate
+```
+
+5. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Start the application:
+6. Run the application:
 
 ```bash
 fastapi dev main.py
 ```
-
-6. Open the API documentation:
+7. Open the API documentation:
 
 ```text
 http://127.0.0.1:8000/docs
 ```
+---
+
+### Option 2: Minimal setup
+
+Alternatively, you can manually create a project folder and include only the necessary files:
+
+* `main.py`
+* `requirements.txt`
+* `README.md`
+
+Then follow steps 2–7 from Option 1.
+
+
 
 ## Modeling Info
 
